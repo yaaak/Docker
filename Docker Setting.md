@@ -48,4 +48,7 @@ $ docker run -it --detach --name centos7.01 centos:7
 
 $ docker ps -a
 
+12,配置Shell
+eval $(docker-machine env test-docker)
+
 2016年10月12日 00:55
